@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/happylife_detail_header_framlayout"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/happylife_detail_header_image"
+            android:src="@mipmap/ic_launcher"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/happylife_detail_header_play_image"
+            android:src="@mipmap/play"/>
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:id="@+id/happylife_detail_header_share_image"
+        android:src="@mipmap/class_share"
+        android:layout_below="@+id/happylife_detail_header_framlayout"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/happylife_detail_header_comment_image"
+        android:src="@drawable/happylife_detail_collect_selector"
+        android:layout_below="@+id/happylife_detail_header_framlayout"
+        android:layout_toLeftOf="@+id/happylife_detail_header_share_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上课人数：11"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/happylife_detail_header_class_count"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/happylife_detail_header_comment_image"
+        android:layout_margin="10dp"
+       />
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_happy_life_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.group.zhangchu.module.happylife.activitys.UserDetailActivity">
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@mipmap/user_top_bg"
+        android:scaleType="centerCrop"
+        />
+    <android.support.design.widget.TabLayout
+        android:id="@+id/happyLife_tab_layout"
+        android:layout_below="@+id/topImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:tabIndicatorColor="#ef6daa"
+        app:tabMode="scrollable">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/happyLife_view_pager"
+        android:layout_below="@id/happyLife_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

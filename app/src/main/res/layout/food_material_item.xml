@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+    <TextView
+        android:id="@+id/food_Material_name"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常见食材"
+        android:textColor="#240f0f"/>
+
+    <GridLayout
+        android:id="@+id/food_Material_gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="4"
+        android:columnCount="5"
+        android:layout_gravity="fill|center"
+        >
+
+        <ImageView
+            android:id="@+id/food_Material_Img"
+            android:layout_rowSpan="2"
+            android:layout_columnSpan="2"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitXY"
+            android:layout_gravity="fill"/>
+
+
+        <!--<TextView
+            android:text="上海青"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"/>
+
+        <TextView
+            android:text="上海青"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菠菜"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菠菜"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+-->
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菠菜"
+            android:layout_gravity="fill"/>
+
+        <TextView
+            android:text="上海青"
+            android:layout_gravity="fill"/>
+        <TextView
+            android:text="上海青"
+            android:layout_gravity="fill"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菠菜"
+            android:layout_gravity="fill"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菠菜"
+            android:layout_gravity="fill"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菠菜"/>
+-->
+
+    </GridLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#e5ecf0"/>
+
+
+
+</LinearLayout>

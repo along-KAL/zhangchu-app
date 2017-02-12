@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        >
+
+        <ImageView
+            android:id="@+id/dishes_item_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/bocai"
+            android:layout_margin="3dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/dishes_item_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/play"/>
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/dishes_item_title"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="菠菜酵素"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/dishes_item_description"
+            android:layout_below="@+id/dishes_item_title"
+            android:layout_marginLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="菠菜酵素"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/dishes_item_hard_level"
+            android:layout_below="@+id/dishes_item_description"
+            android:layout_marginLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="难度:  容易"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/dishes_item_taste"
+            android:layout_below="@+id/dishes_item_description"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="口味：酸"
+            android:textSize="12sp"/>
+
+
+        <TextView
+            android:id="@+id/dishes_item_cooking_time"
+            android:layout_below="@+id/dishes_item_hard_level"
+            android:layout_marginLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="烹饪时间：5分钟"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+</LinearLayout>

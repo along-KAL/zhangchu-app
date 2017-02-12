@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!--这是相宜相克中相宜的item布局-->
+    <ImageView
+        android:id="@+id/suitable_with_img"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:src="@mipmap/jianyijiachangcai"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/suitable_with_material_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="凉薯"
+            android:textColor="#251515"/>
+
+        <TextView
+            android:id="@+id/suitable_with_suitable_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="保肝护肾"
+            android:textColor="#a5a2a2"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

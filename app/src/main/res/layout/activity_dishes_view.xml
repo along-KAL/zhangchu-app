@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.group.zhangchu.module.cookbook.activitys.DishesViewActivity">
+
+    <!--记得把Fragment里的布局补全-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        >
+
+        <ImageView
+            android:id="@+id/activity_dishes_view_name_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/bocai"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/activity_dishes_view_play_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/activity_dishes_view_material_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play"
+            android:scaleType="centerCrop"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="40dp"
+            android:text="材料准备"/>
+
+        <ImageView
+            android:id="@+id/activity_dishes_view_process_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play"
+            android:scaleType="centerCrop"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/activity_dishes_view_dishes_name"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="菠菜酵素"
+        android:textSize="15sp"
+        android:textColor="#200505"/>
+
+    <LinearLayout
+        android:id="@+id/dishes_view_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="腌"/>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="增强免疫力"/>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="甜"/>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="补铁"/>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="增强免疫力"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/material_desc"
+        android:text="食材的描述"/>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/activity_view_tabLayout"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"></android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_view_viewPagewr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

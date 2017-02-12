@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.example.group.zhangchu.module.cookbook.DishesViewFragmnet.DishesCommensenseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/fragment_dishes_commensense_img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@mipmap/bocai"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#b7c0e1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="相关常识"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="#221d1d"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/fragment_nutrition_analysis"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#b7c0e1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="制作指导"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="#221d1d"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/fragment_production_direction"/>
+
+</LinearLayout>

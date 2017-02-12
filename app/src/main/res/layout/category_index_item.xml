@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!--这是分类二级界面RecyclerView的item布局-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/category_index_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/bocai"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/category_index_img_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/category_index_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="蕨菜炒苦瓜"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="120dp">
+
+            <TextView
+                android:id="@+id/category_index_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="清火，润肠，就会这点本事"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/category_index_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:text="20511人做过"
+                android:textSize="10sp"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="20dp"
+       android:background="#f4f8f9"/>
+</LinearLayout>

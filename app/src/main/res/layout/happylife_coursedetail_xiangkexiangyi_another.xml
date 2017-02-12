@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/happylife_coursedetail_xiangkexiangyi_title"
+        android:text="与火龙果搭配相宜的食材"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/happylife_coursedetail_xiangkexiangyi_title"
+        android:id="@+id/happylife_coursedetail_xiangkexiangyi_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="虾"
+        android:layout_margin="5dp"
+        android:layout_alignTop="@+id/happylife_coursedetail_xiangkexiangyi_icon"
+        android:layout_below="@+id/happylife_coursedetail_xiangkexiangyi_title"
+        android:layout_toRightOf="@+id/happylife_coursedetail_xiangkexiangyi_icon"
+        android:id="@+id/happylife_coursedetail_xiangkexiangyi_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消除去燥，曾静食欲"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/happylife_coursedetail_xiangkexiangyi_name"
+        android:layout_toRightOf="@+id/happylife_coursedetail_xiangkexiangyi_icon"
+        android:id="@+id/happylife_coursedetail_xiangkexiangyi_desc"/>
+</RelativeLayout>

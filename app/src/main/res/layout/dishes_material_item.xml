@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!--这是食材中食物的item布局-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:id="@+id/material_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="五花肉"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/material_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="50克"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

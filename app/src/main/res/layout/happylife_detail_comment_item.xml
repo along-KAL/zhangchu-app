@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="1"
+        android:id="@+id/happylife_detail_comment_image"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="青青"
+            android:layout_margin="10dp"
+            android:id="@+id/happylife_detail_comment_name"
+            android:layout_toRightOf="@+id/happylife_detail_comment_image"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="青青青青青青青青青青青青"
+            android:layout_margin="10dp"
+            android:id="@+id/happylife_detail_comment_content"
+            android:layout_toRightOf="@+id/happylife_detail_comment_image"
+            android:layout_below="@+id/happylife_detail_comment_name"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12小时前"
+            android:id="@+id/happylife_detail_comment_date_text"
+            android:layout_below="@+id/happylife_detail_comment_content"
+            android:layout_toRightOf="@+id/happylife_detail_comment_image"
+
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/happylife_detail_comment_report_image"/>
+
+
+</LinearLayout>

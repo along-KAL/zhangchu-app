@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#ffffff"
+             tools:context="com.example.group.zhangchu.module.cookbook.DishesViewFragmnet.DishesSuitableFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/dishes_suitable_img"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@mipmap/zhajiangmian"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/dishes_suitable_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="与猪肝搭配的相宜的食材"
+        android:textColor="#ba6363"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dishes_suitable_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/dishes_suitable_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="与猪肝搭配的相克的食材"
+        android:textColor="#6399ba"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dishes_suitable_recyclerViewTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

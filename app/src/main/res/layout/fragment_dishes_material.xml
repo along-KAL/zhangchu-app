@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dishes_material_img"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@mipmap/zhajiangmian"
+        android:scaleType="centerCrop"/>
+
+    <!--动态加载两个TextView的布局-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dishes_material_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    <!--里面是一个框架或相对布局，动态加载-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dishes_material_recyclerView_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

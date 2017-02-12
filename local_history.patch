@@ -1,0 +1,18 @@
+Index: app/src/main/java/com/example/group/teamproject1/module/happylife/activitys/CursorDetailActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/group/teamproject1/module/happylife/activitys/CursorDetailActivity.java	(revision )
++++ app/src/main/java/com/example/group/teamproject1/module/happylife/activitys/CursorDetailActivity.java	(revision )
+@@ -1,7 +1,9 @@
+ package com.example.group.teamproject1.module.happylife.activitys;
+ 
+-import android.support.v7.app.AppCompatActivity;
+ import android.os.Bundle;
++import android.support.v7.app.AppCompatActivity;
++
++import com.example.group.teamproject1.R;
+ 
+ public class CursorDetailActivity extends AppCompatActivity {
+ 

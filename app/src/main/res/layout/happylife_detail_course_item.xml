@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:drawableRight="@mipmap/icon_gray_arrow_right"
+    android:text="相关课程"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/happylife_detail_course_recycleview"
+        ></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17条评论"
+            android:layout_margin="10dp"
+            android:layout_alignBottom="@+id/happylife_detail_handwork_btn"
+            android:id="@+id/happylife_detail_comment_count_title"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/happylife_detail_handwork_btn"
+            android:drawableTop="@mipmap/class_homework"
+            android:text="交作业"
+            android:textColor="#ff8a05"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="课堂发言"
+            android:background="#fc710e"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:id="@+id/happylife_detail_handwork_makevoice"
+            android:layout_below="@+id/happylife_detail_comment_count_title"/>
+
+    </RelativeLayout>
+</LinearLayout>

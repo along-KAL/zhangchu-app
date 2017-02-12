@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/coursedetail_main_title"
+    android:text="纸包豆腐"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        ></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/coursedetail_content_text"
+        android:text="ddddddddffffffffffffffffff"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:id="@+id/coursedetail_hard_text"
+            android:text="难度:一般"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/coursedetail_time_text"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="烹饪时间：2分钟"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/coursedetail_taste_text"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="口味：淡"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ffffffffffffffffffffff"
+        android:layout_margin="10dp"
+        android:id="@+id/happylife_coursedetail__commonsense_another_title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="ffffffffffffffffffffff"
+        android:id="@+id/happylife_coursedetail__commonsense_another_content"/>
+
+</LinearLayout>
